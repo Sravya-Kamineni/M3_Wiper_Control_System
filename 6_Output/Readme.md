@@ -39,9 +39,3 @@
 <bs  />
 
 ![OFF STATE](https://user-images.githubusercontent.com/89642370/168282238-96d3f26d-fe85-459f-b519-685b63c1084f.png)
-
-
-
-
-
-
