@@ -114,7 +114,6 @@ Mark Anderson invented on 1902
 | HR_03|Wiper Speed Change|Implemented|
 |HR_04|Wiper OFF|Implemented|
 
-
 ## Low Level Reuirements
 
 | ID	| Description	| Operation	|Status |
