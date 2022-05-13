@@ -17,5 +17,6 @@ Wiper system is the utility project. It is used to clean the wind shield of the 
 
 [![CI](https://github.com/Sravya-Kamineni/M3_Wiper_Control_System/actions/workflows/main.yml/badge.svg)](https://github.com/Sravya-Kamineni/M3_Wiper_Control_System/actions/workflows/main.yml)
 
+## [![CI](https://github.com/Sravya-Kamineni/M3_Wiper_Control_System/actions/workflows/main.yml/badge.svg)](https://github.com/Sravya-Kamineni/M3_Wiper_Control_System/actions/workflows/main.yml)
 
 
