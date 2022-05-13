@@ -1,5 +1,5 @@
 # WIPER CONTROL SYSTEM
-# INTRODUCTION
+## INTRODUCTION
 
 Today’s car wipers are manual systems that work on the
 principle of manual switching. So here we propose an automatic wiper system that automatically switches ON on
@@ -19,18 +19,18 @@ on it, the circuit gets completed and sends out a signal to
 the microcontroller. The microcontroller now processes this
 data and controls the motor.
 
-# WORKING
+## WORKING
 
-* The RED LED is considered for the ACC position. Once the push button is pressed for 2 seconds, the RED LED keeps continuously glowing until the stop of the engine signifying the engine condition to be turned ON.
-* On press of the user input push button, the other three Blue, Green and Orange LEDs come ON one at a time with the set frequency. The frequency changes on every alternate key press, 3 frequency levels with 1, 4 and 8 Hz.
-* The LED glow pattern stops on the 4th press; the wiper action starts with the next press.
-* If the push button is pressed for 2 seconds continuously, the RED light goes off and the pattern stops bringing it to default position which signifies the engine is turned OFF.
+*   The RED LED is considered for the ACC position. Once the push button is pressed for 2 seconds, the RED LED keeps continuously glowing until the stop of the engine signifying the engine condition to be turned ON.
+*   On press of the user input push button, the other three Blue, Green and Orange LEDs come ON one at a time with the set frequency. The frequency changes on every alternate key press, 3 frequency levels with 1, 4 and 8 Hz.
+*   The LED glow pattern stops on the 4th press; the wiper action starts with the next press.
+*   If the push button is pressed for 2 seconds continuously, the RED light goes off and the pattern stops bringing it to default position which signifies the engine is turned OFF.
 
-# REQUIREMENTS FOR THE PROJECT
+## REQUIREMENTS FOR THE PROJECT
 
 ## STM32Cube IDE
 
-* STM32Cube software ecosystem. STM32CubeIDE is an advanced C/C++ development platform with peripheral configuration, code generation, code compilation, and debug features for STM32 microcontrollers and microprocessors. It is based on the Eclipse®/CDT™ framework and GCC toolchain for the development, and GDB for the debugging. It allows the integration of the hundreds of existing plugins that complete the features of the Eclipse® IDE
+*   STM32Cube software ecosystem. STM32CubeIDE is an advanced C/C++ development platform with peripheral configuration, code generation, code compilation, and debug features for STM32 microcontrollers and microprocessors. It is based on the Eclipse®/CDT™ framework and GCC toolchain for the development, and GDB for the debugging. It allows the integration of the hundreds of existing plugins that complete the features of the Eclipse® IDE
 
 ## Xpack Packages
 
@@ -56,16 +56,16 @@ The STM32F407G-DISC1 is a Discovery Kit allows users to easily develop applicati
 
 ## Features Of STM32F407G
 
-* Flash memory of up to 1 megabyte.
-* OTP memory of 512 bytes.
-* Compact Flash, SRAM, PSRAM, NOR, and NAND memories are supported by this flexible static memory controller.
-* Sleep, Stop, and Standby modes are low-power modes.
-* 16-stream DMA controller with FIFOs and burst support for general-purpose DMA.
-* Up to 54 Mbytes/s 8- to 14-bit parallel camera interface.
-* Generator of true random numbers.
-* Hardware calendar, CRC calculating unit, 96-bit unique ID RTC, subsecond accuracy.
+*   Flash memory of up to 1 megabyte.
+*   OTP memory of 512 bytes.
+*   Compact Flash, SRAM, PSRAM, NOR, and NAND memories are supported by this flexible static memory controller.
+*   Sleep, Stop, and Standby modes are low-power modes.
+*   16-stream DMA controller with FIFOs and burst support for general-purpose DMA.
+*   Up to 54 Mbytes/s 8- to 14-bit parallel camera interface.
+*   Generator of true random numbers.
+*   Hardware calendar, CRC calculating unit, 96-bit unique ID RTC, subsecond accuracy.
 
-# 4 W'S
+## 4 W'S
 
 ## WHAT IS WIPER SYSTEM
 
@@ -83,28 +83,28 @@ The windshield wipers remove rain and snow from the windshield, while the headli
 
 Mark Anderson invented on 1902
 
-# SWOT Analysis
+## SWOT Analysis
 
 ## Strength
 
-* Visibility
-* The wiper does not stop in the middle of the window during drive.
-* Safety
+*   Visibility
+*   The wiper does not stop in the middle of the window during drive.
+*   Safety
 
 ## Weakness
 
-* High cost
-* Not automatic
+*   High cost
+*   Not automatic
 
 ## Opportunities
 
-* Rain sensing and automatic operation can be implemented as further enhancement.
+*   Rain sensing and automatic operation can be implemented as further enhancement.
 
 ## Threats
 
-* Once the board repaired cannot be replaced quickly
+*   Once the board repaired cannot be replaced quickly
 
-# REQUIREMENTS
+## REQUIREMENTS
 
 ## High Level Requirements
 
@@ -126,7 +126,7 @@ Mark Anderson invented on 1902
 |LR_04|	Button pressed fourth time|	8 Hz speed - Blue, Green Orange alternative|	Implemented|
 |LR_05|Button pressed again for two seconds|	Turn Off all LEDs|	Implemented|
 
-# Tools Used for Implementation :
+## Tools Used for Implementation
 
 ## STM32Cube IDE 
 
@@ -188,7 +188,7 @@ By convention, uppercase letters are used for these definitions to remind the us
 You can use typedef to give a name to your user defined data types as well. For example, you can use typedef with structure to define a new data type and then use that data type to define structure variables directly
 
 Syntax: typedef data_type new_name
-# TEST CASES AND CORRESPONDING OUTPUTS
+## TEST CASES AND CORRESPONDING OUTPUTS
 
 ## HIGH-LEVEL TEST CASES
 
