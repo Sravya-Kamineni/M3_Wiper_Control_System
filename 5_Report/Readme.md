@@ -46,7 +46,7 @@ data and controls the motor.
 
 The xPack QEMU Arm is a standalone cross-platform binary distribution of QEMU, with several extensions for Arm Cortex-M devices.
 
-# COMPONENTS USED IN PROJECT
+## COMPONENTS USED IN PROJECT
 
 ## STM32F407G-DISC1
 
@@ -126,10 +126,6 @@ Mark Anderson invented on 1902
 |LR_05|Button pressed again for two seconds|	Turn Off all LEDs|	Implemented|
 
 ## Tools Used for Implementation
-
-## STM32Cube IDE 
-
-STM32Cube software ecosystem. STM32CubeIDE is an advanced C/C++ development platform with peripheral configuration, code generation, code compilation, and debug features for STM32 microcontrollers and microprocessors. It is based on the Eclipse®/CDT™ framework and GCC toolchain for the development, and GDB for the debugging. It allows the integration of the hundreds of existing plugins that complete the features of the Eclipse® IDE.
 
 ## Preprocessor
 The C preprocessor is a macro processor that is used automatically by the C compiler to transform your program before actual compilation. It is called a macro processor because it allows you to define macros, which are brief abbreviations for longer constructs.
