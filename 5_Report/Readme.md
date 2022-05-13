@@ -188,3 +188,24 @@ By convention, uppercase letters are used for these definitions to remind the us
 You can use typedef to give a name to your user defined data types as well. For example, you can use typedef with structure to define a new data type and then use that data type to define structure variables directly
 
 Syntax: typedef data_type new_name
+# TEST CASES AND CORRESPONDING OUTPUTS
+
+## HIGH-LEVEL TEST CASES
+
+|Test ID|	Description|	Exp.i/p|	Exp.o/p|	Actual o/p	|STATUS|
+|-------|------------|---------|---------|--------------|------|
+|1	|check if the BUTTTON is pressed	|program execution|	Microcontroller/Engine starts|	LED ON(RED)	|PASS|
+|2	|check if the BUTTTON is pressed	|program execution|WIPER starts	|LED ON(BLUE)	|PASS|
+|3	|check if the BUTTTON is pressed	|program execution|	WIPER starts	|LED ON(GREEN)|	PASS|
+|4  |check if the BUTTTON is pressed	|program execution|	WIPER starts	|LED ON(ORANGE)|	PASS|
+|5	|check if the BUTTTON is pressed	|-	|Microcontroller/Engine stops	|LED TURNED OFF	|PASS|
+
+## LOW-LEVEL TEST CASES
+
+|Test ID	| Description	| Exp.i/p	| Exp.o/p	| Actual o/p	| STATUS|
+|---------|-------------|---------|---------|-------------|-------|
+|1	|check if the BUTTTON is pressed|	program execution|	Microcontroller/Engine starts	|LED ON(RED)	|PASS|
+|2	|check if the BUTTTON is pressed again|	program execution	|WIPER starts and speed of wiper is slow|	LED ON(BLUE)	|PASS|
+|3	|check if the BUTTTON is pressed again|	program execution	|WIPER starts and speed of wiper is moderate|	LED ON(GREEN)|	PASS|
+|4	|check if the BUTTTON is pressed again|	program execution	|WIPER starts and speed of wiper is good	|LED ON(ORANGE)|	PASS|
+|5	|check if the BUTTTON is pressed again|	-	|Microcontroller/Engine stops|	LED TURNED OFF|	PASS|
