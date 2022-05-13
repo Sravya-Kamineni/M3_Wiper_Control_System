@@ -18,14 +18,14 @@ on it, the circuit gets completed and sends out a signal to
 the microcontroller. The microcontroller now processes this
 data and controls the motor.
 
-# WORKING
+## WORKING
 
 * The RED LED is considered for the ACC position. Once the push button is pressed for 2 seconds, the RED LED keeps continuously glowing until the stop of the engine signifying the engine condition to be turned ON.
 * On press of the user input push button, the other three Blue, Green and Orange LEDs come ON one at a time with the set frequency. The frequency changes on every alternate key press, 3 frequency levels with 1, 4 and 8 Hz.
 * The LED glow pattern stops on the 4th press; the wiper action starts with the next press.
 * If the push button is pressed for 2 seconds continuously, the RED light goes off and the pattern stops bringing it to default position which signifies the engine is turned OFF.
 
-# REQUIREMENTS FOR THE PROJECT
+## REQUIREMENTS FOR THE PROJECT
 
 ## STM32Cube IDE
 
@@ -45,7 +45,7 @@ data and controls the motor.
 
 The xPack QEMU Arm is a standalone cross-platform binary distribution of QEMU, with several extensions for Arm Cortex-M devices.
 
-# COMPONENTS USED IN PROJECT
+## COMPONENTS USED IN PROJECT
 
 ## STM32F407G-DISC1
 
@@ -64,7 +64,7 @@ The STM32F407G-DISC1 is a Discovery Kit allows users to easily develop applicati
 * Generator of true random numbers.
 * Hardware calendar, CRC calculating unit, 96-bit unique ID RTC, subsecond accuracy.
 
-# 4 W'S
+## 4 W'S
 
 ## WHAT IS WIPER SYSTEM
 
@@ -82,7 +82,7 @@ The windshield wipers remove rain and snow from the windshield, while the headli
 
 Mark Anderson invented on 1902
 
-# SWOT Analysis
+## SWOT Analysis
 
 ## Strength
 
@@ -103,7 +103,7 @@ Mark Anderson invented on 1902
 
 * Once the board repaired cannot be replaced quickly
 
-# REQUIREMENTS
+## REQUIREMENTS
 
 ## High Level Requirements
 
