@@ -1,5 +1,5 @@
 # WIPER CONTROL SYSTEM
-# ABSTRACT
+## ABSTRACT
 
 Over the past two decades, the automotive industry has
 aggressively researched ways to exploit modern computing
