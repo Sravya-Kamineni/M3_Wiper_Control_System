@@ -283,7 +283,6 @@ void SystemInit_ExtMemCtl(void)
   register uint32_t tmpreg = 0, timeout = 0xFFFF;
   register __IO uint32_t index;
 
-  /* Enable GPIOC, GPIOD, GPIOE, GPIOF, GPIOG, GPIOH and GPIOI interface clock */
   RCC->AHB1ENR |= 0x000001F8;
 
   /* Delay after an RCC peripheral clock enabling */
@@ -364,7 +363,6 @@ void SystemInit_ExtMemCtl(void)
 /*-- FMC Configuration -------------------------------------------------------*/
   /* Enable the FMC interface clock */
   RCC->AHB3ENR |= 0x00000001;
-  /* Delay after an RCC peripheral clock enabling */
   tmp = READ_BIT(RCC->AHB3ENR, RCC_AHB3ENR_FMCEN);
 
   FMC_Bank5_6->SDCR[0] = 0x000019E4;
@@ -569,8 +567,6 @@ void SystemInit_ExtMemCtl(void)
   RCC->AHB3ENR |= 0x00000001;
   /* Delay after an RCC peripheral clock enabling */
   tmp = READ_BIT(RCC->AHB3ENR, RCC_AHB3ENR_FMCEN);
-
-  /* Configure and enable SDRAM bank1 */
 #if defined(STM32F446xx)
   FMC_Bank5_6->SDCR[0] = 0x00001954;
 #else  
